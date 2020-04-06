@@ -25,5 +25,5 @@ FFLAGS= -O2 -fdefault-real-8 -g -fPIC ${CGNS_VERSION_FLAG}
 
 # Define potentially different python, python-config and f2py executables:
 PYTHON = python
-PYTHON-CONFIG = python-config
+PYTHON-CONFIG = python3-config
 F2PY = f2py
